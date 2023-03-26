@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/07 19:13:47.000.437,=C:\Users\Valerian\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2022/06/07 19:13:47.000.415,=C:\Users\Valerian\OneDrive\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2022/09/29 18:33:02.000.548,=C:\Users\Valerian\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/09/29 18:33:02.000.526,=C:\Users\Valerian\OneDrive\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2022/09/29 18:38:58.000.605,D:\WinForms\Clinica_dentara_project\Unit_Main.dfm=C:\Users\Valerian\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/29 18:38:58.000.605,D:\WinForms\Clinica_dentara_project\Unit_Main.cpp=C:\Users\Valerian\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/09/29 18:38:58.000.605,D:\WinForms\Clinica_dentara_project\Unit_Main.h=C:\Users\Valerian\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2022/09/29 18:39:05.000.604,D:\WinForms\Clinica_dentara_project\Project2PCH1.h=C:\Users\Valerian\OneDrive\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2022/09/29 18:39:29.000.749,D:\WinForms\Clinica_dentara_project\Clinica_dentaraPCH1.h=D:\WinForms\Clinica_dentara_project\Project2PCH1.h</Transaction>
+    <Transaction>2022/09/29 18:39:29.000.764,D:\WinForms\Clinica_dentara_project\Clinica_dentara.cbproj=C:\Users\Valerian\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.cbproj</Transaction>
+    <Transaction>2022/10/07 20:45:25.000.745,=D:\WinForms\Clinica_dentara_project\Lectia 1+2\Unit1.cpp</Transaction>
+    <Transaction>2022/10/07 20:49:12.000.304,D:\WinForms\Clinica_dentara_project\Lectia 1+2\Unit1.dfm=D:\WinForms\Clinica_dentara_project\Lectia 1+2\UDM.dfm</Transaction>
+    <Transaction>2022/10/07 20:49:12.000.304,D:\WinForms\Clinica_dentara_project\Lectia 1+2\Unit1.h=D:\WinForms\Clinica_dentara_project\Lectia 1+2\UDM.h</Transaction>
+    <Transaction>2022/10/07 20:49:12.000.304,D:\WinForms\Clinica_dentara_project\Lectia 1+2\Unit1.cpp=D:\WinForms\Clinica_dentara_project\Lectia 1+2\UDM.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

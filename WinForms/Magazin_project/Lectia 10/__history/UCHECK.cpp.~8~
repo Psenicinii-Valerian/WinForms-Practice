@@ -1,0 +1,33 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "UCHECK.h"
+#include "UDM.h"
+#include "UMAIN.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TFCheck *FCheck;
+//---------------------------------------------------------------------------
+__fastcall TFCheck::TFCheck(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TFCheck::SpeedButton1Click(TObject *Sender)
+{
+	DM->QCheck->Close();
+	DM->QCheck->ParamByName("D1")->AsDate = DateTimePicker1->Date;
+	DM->QCheck->ParamByName("D2")->AsDate = DateTimePicker2->Date;
+	DM->QCheck->Open();
+}
+//---------------------------------------------------------------------------
+void __fastcall TFCheck::DBGrid2DblClick(TObject *Sender)
+{
+	DM->QVanzare->Close();
+    DM->QVanzare->ParamByName("CHECK_ID")->AsInteger = DM->QVanzare
+}
+//---------------------------------------------------------------------------

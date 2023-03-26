@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.410,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project2.cbproj=F:\Baza\LPS-2115\MAGAZIN-2115.cbproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.684,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.cpp=F:\Baza\LPS-2115\URECEPTIE.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.129,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.128,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\Baza\LPS-2115\UMAIN.dfm</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.444,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.128,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp=F:\Baza\LPS-2115\UMAIN.cpp</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.394,F:\Baza\LPS-2115\Project2PCH1.h=F:\Baza\LPS-2115\MAGAZIN-2115PCH1.h</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.128,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.h=F:\Baza\LPS-2115\UMAIN.h</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.727,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project2PCH1.h=F:\Baza\LPS-2115\Project2PCH1.h</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.414,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.684,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.dfm=F:\Baza\LPS-2115\URECEPTIE.dfm</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.684,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.h=F:\Baza\LPS-2115\URECEPTIE.h</Transaction>
+    <Transaction>2022/11/02 20:33:33.000.747,=D:\DataBases\WinForms\Magazin_project\Lectia 1\Unit1.cpp</Transaction>
+    <Transaction>2022/11/02 20:34:17.000.621,D:\DataBases\WinForms\Magazin_project\Lectia 1\UDM.dfm=D:\DataBases\WinForms\Magazin_project\Lectia 1\Unit1.dfm</Transaction>
+    <Transaction>2022/11/02 20:34:17.000.621,D:\DataBases\WinForms\Magazin_project\Lectia 1\UDM.h=D:\DataBases\WinForms\Magazin_project\Lectia 1\Unit1.h</Transaction>
+    <Transaction>2022/11/02 20:34:17.000.621,D:\DataBases\WinForms\Magazin_project\Lectia 1\UDM.cpp=D:\DataBases\WinForms\Magazin_project\Lectia 1\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

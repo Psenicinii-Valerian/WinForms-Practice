@@ -1,0 +1,27 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "URECEPTIE.h"
+#include "UDM.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TFRECEPTIE *FRECEPTIE;
+//---------------------------------------------------------------------------
+__fastcall TFRECEPTIE::TFRECEPTIE(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TFRECEPTIE::FormShow(TObject *Sender)
+{
+    FACTURA->TabVisible=true;
+	UM->TabVisible=false;
+	EMITENT->TabVisible=false;
+	PRODUS->TabVisible=false;
+}
+//---------------------------------------------------------------------------
+
+

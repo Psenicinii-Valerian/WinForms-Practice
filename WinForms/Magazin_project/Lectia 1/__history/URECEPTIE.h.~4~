@@ -1,0 +1,114 @@
+//---------------------------------------------------------------------------
+
+#ifndef URECEPTIEH
+#define URECEPTIEH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Data.DB.hpp>
+#include <Vcl.Buttons.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.DBGrids.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Grids.hpp>
+//---------------------------------------------------------------------------
+class TFRECEPTIE : public TForm
+{
+__published:	// IDE-managed Components
+	TPanel *Panel1;
+	TPanel *Panel2;
+	TPageControl *PageControl1;
+	TTabSheet *FACTURA;
+	TPanel *Panel7;
+	TSpeedButton *B_IDENTIFICA;
+	TSpeedButton *SpeedButton19;
+	TEdit *NR_F;
+	TDateTimePicker *DATA_F;
+	TEdit *EMITENT_F;
+	TPanel *Panel8;
+	TPageControl *PageControl4;
+	TTabSheet *MAIN_F;
+	TSpeedButton *BINREG_F;
+	TSpeedButton *BANULEAZA_F;
+	TSpeedButton *BURM_F;
+	TSpeedButton *SpeedButton14;
+	TTabSheet *INREG_F;
+	TSpeedButton *SpeedButton10;
+	TSpeedButton *SpeedButton11;
+	TSpeedButton *SpeedButton20;
+	TSpeedButton *SpeedButton21;
+	TEdit *PRODUS_F;
+	TEdit *UM_F;
+	TEdit *COST_F;
+	TEdit *TVA_F;
+	TEdit *CANTITATE_F;
+	TEdit *PRET_F;
+	TTabSheet *EDIT_F;
+	TSpeedButton *SpeedButton9;
+	TSpeedButton *SpeedButton13;
+	TSpeedButton *SpeedButton22;
+	TSpeedButton *SpeedButton23;
+	TEdit *PRODUS_FF;
+	TEdit *UM_FF;
+	TEdit *COST_FF;
+	TEdit *TVA_FF;
+	TEdit *CANTITATE_FF;
+	TEdit *PRET_FF;
+	TTabSheet *GOL_F;
+	TPanel *Panel9;
+	TDBGrid *DBGrid4;
+	TTabSheet *PRODUS;
+	TPanel *Panel5;
+	TPageControl *PageControl3;
+	TTabSheet *MAIN_P;
+	TSpeedButton *SpeedButton1;
+	TSpeedButton *SpeedButton2;
+	TSpeedButton *SpeedButton6;
+	TSpeedButton *SpeedButton7;
+	TSpeedButton *SpeedButton8;
+	TGroupBox *GroupBox1;
+	TRadioButton *RB1;
+	TRadioButton *RB2;
+	TEdit *EPROD;
+	TTabSheet *INS_P;
+	TTabSheet *EDIT_P;
+	TPanel *Panel6;
+	TDBGrid *DBGrid2;
+	TTabSheet *UM;
+	TPanel *Panel3;
+	TPageControl *PageControl2;
+	TTabSheet *MAIN_UM;
+	TSpeedButton *BSELECTEAZA_UM;
+	TSpeedButton *BANULEAZA_UM;
+	TSpeedButton *SpeedButton3;
+	TSpeedButton *SpeedButton4;
+	TSpeedButton *SpeedButton5;
+	TTabSheet *INS_UM;
+	TTabSheet *EDIT_UM;
+	TPanel *Panel4;
+	TDBGrid *DBGrid1;
+	TTabSheet *EMITENT;
+	TPanel *Panel10;
+	TPageControl *PageControl5;
+	TTabSheet *TabSheet1;
+	TSpeedButton *SpeedButton12;
+	TSpeedButton *SpeedButton15;
+	TSpeedButton *SpeedButton16;
+	TSpeedButton *SpeedButton17;
+	TSpeedButton *SpeedButton18;
+	TTabSheet *TabSheet2;
+	TTabSheet *TabSheet3;
+	TPanel *Panel11;
+	TDBGrid *DBGrid3;
+	void __fastcall FormShow(TObject *Sender);
+	void __fastcall EMITENT_FKeyPress(TObject *Sender, System::WideChar &Key);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TFRECEPTIE(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TFRECEPTIE *FRECEPTIE;
+//---------------------------------------------------------------------------
+#endif

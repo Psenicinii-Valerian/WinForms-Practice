@@ -1,0 +1,88 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "UMAIN.h"
+#include "UDM.h"
+#include "URECEPTIE.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TFMAIN *FMAIN;
+//---------------------------------------------------------------------------
+__fastcall TFMAIN::TFMAIN(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TFMAIN::SpeedButton3Click(TObject *Sender)
+{
+	FRECEPTIE->ShowModal();
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TFMAIN::SpeedButton5Click(TObject *Sender)
+{
+	if(EProdus->Text!="")
+{
+  DM->QIDENTIFICARE->Close();
+  DM->QIDENTIFICARE->SQL->Clear();
+   if(!CBClient->Checked)
+   {
+	DM->QIDENTIFICARE->SQL->Add("select * from receptie r inner join produse p on ");
+	DM->QIDENTIFICARE->SQL->Add("r.produse_id=p.produse_id inner join unit_masura um ");
+	DM->QIDENTIFICARE->SQL->Add("on um.unit_masura_id=r.unit_masura_id ");
+	DM->QIDENTIFICARE->SQL->Add(" where p.cod_produs=:cod ");
+   }
+   else //identificarea client
+   {
+	DM->QIDENTIFICARE->SQL->Add("select c.nume+' '+prenume as client, cast(valoarea/100.0 as decimal(4,2)) as procent,");
+	DM->QIDENTIFICARE->SQL->Add("* from client c inner join discount d on c.DISCOUNT_ID=d.DISCOUNT_ID where c.CLIENT_ID=:cod");
+   }
+  DM->QIDENTIFICARE->ParamByName("cod")->AsInteger=EProdus->Text.ToInt();
+  DM->QIDENTIFICARE->Open();
+  EProdus->Clear();
+  EProdus->SetFocus();
+
+
+
+  if(!DM->QIDENTIFICARE->IsEmpty()) //verificam daca primim ceva rezultate sau nu
+   {
+    if(!CBClient->Checked)//daca e produs
+    {
+     LProdus->Caption=DM->QIDENTIFICARE->FieldByName("denumire")->AsString+"-"+DM->QIDENTIFICARE->FieldByName("pret_vanz")->AsString+" lei/"+DM->QIDENTIFICARE->FieldByName("abreviere")->AsString;
+
+
+
+   }
+    else //client
+    {
+     LClient->Caption=DM->QIDENTIFICARE->FieldByName("client")->AsString+"-"+DM->QIDENTIFICARE->FieldByName("valoare")->AsString+"%";
+
+
+
+   }
+
+
+
+  }
+   else
+   {
+    LProdus->Caption="NESPECIFICAT";
+   }
+
+
+
+
+}
+else
+{
+  LProdus->Caption="NESPECIFICAT";
+}
+}
+//---------------------------------------------------------------------------
+

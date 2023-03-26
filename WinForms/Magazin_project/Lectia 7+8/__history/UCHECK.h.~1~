@@ -1,0 +1,34 @@
+//---------------------------------------------------------------------------
+
+#ifndef UCHECKH
+#define UCHECKH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.ComCtrls.hpp>
+//---------------------------------------------------------------------------
+class TFCheck : public TForm
+{
+__published:	// IDE-managed Components
+	TPanel *Panel1;
+	TPanel *Panel2;
+	TDateTimePicker *DateTimePicker1;
+	TLabel *Label2;
+	TLabel *Label3;
+	TDateTimePicker *DateTimePicker2;
+	TButton *Button1;
+	TButton *Button2;
+	TPageControl *PageControl1;
+	TTabSheet *TabSheet1;
+	TTabSheet *TabSheet2;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TFCheck(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TFCheck *FCheck;
+//---------------------------------------------------------------------------
+#endif
